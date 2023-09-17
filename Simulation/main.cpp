@@ -11,12 +11,12 @@ int main() {
 	int carSpacing = avgCarWidth + (avgCarWidth * zoneSpeed / 10); // feet
 	int maxCapacity = lengthOfZone * 5280 / carSpacing; // number of cars
 	int carExitsPerMinute = (zoneSpeed * 5280) / (60 * carSpacing); // how many
-	cars exit in a minute
+	//cars exit in a minute
 		double arrivalFactor = 1.5; // ratio of cars entering over cars exiting
 	int carArrivalsPerMinute = arrivalFactor * carExitsPerMinute; // multiple
-	cars merging into the q in same minute
+	//cars merging into the q in same minute
 		int timeInZone = 60 * lengthOfZone / zoneSpeed; // minutes; how many minutes
-	in the zone ?
+	//in the zone ?
 		int maxSimTime = 60; // minutes; how long before simulation ends?
 	int tick = 1; // minutes; increment time by this amount
 	int id = 0;
