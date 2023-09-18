@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/C++VSCODE/CPlusPlus/ClassPrograms",
-      "program": "f:/C++VSCODE/CPlusPlus/ClassPrograms/build/Debug/outDebug",
+      "cwd": "f:/C++VSCODE/CPlusPlus/Simulation",
+      "program": "f:/C++VSCODE/CPlusPlus/Simulation/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
