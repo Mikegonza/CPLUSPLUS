@@ -37,25 +37,3 @@ int main() {
 
     return 0;
 }
-
-/*
-int main() {
-    vector<Ship*> ships;
-
-    ships.push_back(new Ship("Lusitania", "1906"));
-    ships.push_back(new CruiseShip("Titanic", "1912", 3327));
-    ships.push_back(new CargoShip("Maersk", "1996", 18270));
-
-    for (auto* ship : ships) {
-        ship->print();
-        cout << endl;
-    }
-
-    // Clean up the dynamically allocated memory
-    for (auto* ship : ships) {
-        delete ship;
-    }
-
-    return 0;
-}
-*/

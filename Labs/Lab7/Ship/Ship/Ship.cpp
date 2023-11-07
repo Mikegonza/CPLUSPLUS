@@ -1,8 +1,7 @@
 #include "Ship.h"
 #include <iostream>
 using namespace std;
-Ship::Ship(const string& name, const string& year)
-    : name(name), yearBuilt(year) {}
+Ship::Ship(const string& name, const string& year) : name(name), yearBuilt(year) {}
 
 string Ship::getName() const { return name; }
 void Ship::setName(const string& name) { this->name = name; }
