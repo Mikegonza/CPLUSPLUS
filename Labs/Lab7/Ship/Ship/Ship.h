@@ -23,4 +23,4 @@ public:
     virtual void print() const;
 };
 
-#endif // SHIP_H
+#endif 
