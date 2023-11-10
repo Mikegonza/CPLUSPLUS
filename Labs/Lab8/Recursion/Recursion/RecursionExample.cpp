@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 void function(int);
 
@@ -19,3 +19,4 @@ void function(int num)
 	}
 	
 }
+*/
