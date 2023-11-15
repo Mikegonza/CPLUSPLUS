@@ -6,7 +6,7 @@ long fact2(long n);
 int fib(int n);
 
 int main() {
-	long input;
+	int input;
     cout << "enter a number: " << endl;
     cin >> input;
     cout << "the fibonacci sequence of " << input << " is " << fib(input);
