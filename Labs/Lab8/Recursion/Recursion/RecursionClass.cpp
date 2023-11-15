@@ -7,17 +7,16 @@ int fib(int n);
 
 int main() {
 	int input;
-    cout << "enter a number: " << endl;
+    cout << "Enter a number: ";
     cin >> input;
-    cout << "the fibonacci sequence of " << input << " is " << fib(input);
+    cout << "The fibonacci sequence of " << input << " is " << fib(input);
 
 }
 
 int fib(int n) {
-	if (n == 1)return 1;
-	if (n == 0)return 0;
-	return (fib(n - 1) + fib(n - 2));
-
+	if (n <= 1)return n;
+	//if (n == 0)return 0;
+	return fib(n - 1) + fib(n - 2);
 }
 
 long fact2(long n) {
