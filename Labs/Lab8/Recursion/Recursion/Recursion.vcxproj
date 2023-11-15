@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Recursion.cpp" />
+    <ClCompile Include="RecursionClass.cpp" />
     <ClCompile Include="RecursionExample.cpp" />
     <ClCompile Include="recursionExample2.cpp" />
   </ItemGroup>

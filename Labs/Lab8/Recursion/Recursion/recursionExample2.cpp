@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int function(int);
 
@@ -16,3 +16,4 @@ int function(int num)
 	else
 		return function(num - 1) + num;
 }
+*/
