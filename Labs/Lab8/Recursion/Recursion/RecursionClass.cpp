@@ -9,13 +9,13 @@ int main() {
 	long input;
     cout << "enter a number: " << endl;
     cin >> input;
-    cout << "the factorial of " << input << " is " << fib(input);
+    cout << "the fibonacci sequence of " << input << " is " << fib(input);
 
 }
 
 int fib(int n) {
-	if (n == 1||n==0)return 0;
-	//if (n == 0)return 0;
+	if (n == 1)return 1;
+	if (n == 0)return 0;
 	return (fib(n - 1) + fib(n - 2));
 
 }
