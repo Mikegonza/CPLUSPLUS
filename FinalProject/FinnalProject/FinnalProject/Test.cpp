@@ -70,6 +70,10 @@ int main() {
         XORCipher xorcypher('K');
         encryptor.encryptFile(filename, xorcypher);
     }
+    else if (choice == 3) {
+        filename.open("untitled.txt",ios::out);
+        
+    }
     else {
         cout << "Invalid choice!" << endl;
         return 1;
