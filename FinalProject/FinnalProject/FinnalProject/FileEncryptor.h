@@ -123,6 +123,9 @@ public:
         if (writeFile(encryptedFileName, encodedScheme + ":" + encryptedText)) {
             cout << "File encrypted successfully and saved as " << encryptedFileName << endl;
         }
+        ofstream filename("untitled.txt");
+        
+       
     }
 
     void decryptFile(const string& filename) {
