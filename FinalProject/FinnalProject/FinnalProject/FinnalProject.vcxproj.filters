@@ -15,21 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
+    <ClCompile Include="..\..\..\..\..\Downloads\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\Encryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\FileEncryptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Downloads\XORCipher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CaesarCipher.h">
+    <ClInclude Include="..\..\..\..\..\Downloads\FileEncryptor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Encryption.h">
+    <ClInclude Include="..\..\..\..\..\Downloads\Encryption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FileEncryptor.h">
+    <ClInclude Include="..\..\..\..\..\Downloads\XORCipher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="XORCipher.h">
+    <ClInclude Include="..\..\..\..\..\Downloads\CaesarCipher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

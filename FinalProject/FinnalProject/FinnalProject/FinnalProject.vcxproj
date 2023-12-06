@@ -127,13 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\Encryption.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\FileEncryptor.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\Test.cpp" />
+    <ClCompile Include="..\..\..\..\..\Downloads\XORCipher.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CaesarCipher.h" />
-    <ClInclude Include="Encryption.h" />
-    <ClInclude Include="FileEncryptor.h" />
-    <ClInclude Include="XORCipher.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\CaesarCipher.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\Encryption.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\FileEncryptor.h" />
+    <ClInclude Include="..\..\..\..\..\Downloads\XORCipher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
